@@ -1,0 +1,16 @@
+@model IEnumerable<Claim>
+<table>
+    <tr>
+        <th>Lecturer Name</th>
+        <th>Total Amount</th>
+        <th>Date Submitted</th>
+    </tr>
+    @foreach (var claim in Model)
+    {
+        <tr>
+            <td>@claim.LecturerName</td>
+            <td>@claim.TotalAmount</td>
+            <td>@claim.DateSubmitted</td>
+        </tr>
+    }
+</table>
