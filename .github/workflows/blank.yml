@@ -1,0 +1,32 @@
+Contract-Monthly-Claim-System/
+├── README.md
+├── src/
+│   ├── Controllers/
+│   │   ├── ClaimsController.cs
+│   │   ├── HRController.cs
+│   │   └── VerificationController.cs
+│   ├── Models/
+│   │   ├── ApplicationDbContext.cs
+│   │   ├── Claim.cs
+│   │   ├── SupportingDocument.cs
+│   │   └── User.cs
+│   ├── Views/
+│   │   ├── Claims/
+│   │   │   ├── Create.cshtml
+│   │   │   ├── Verify.cshtml
+│   │   │   └── Index.cshtml
+│   │   ├── HR/
+│   │   │   └── Manage.cshtml
+│   │   └── Shared/
+│   │       └── _Layout.cshtml
+│   ├── wwwroot/
+│   │   └── css/
+│   │       └── styles.css
+│   ├── appsettings.json
+│   └── Startup.cs
+├── assets/
+│   └── screenshots/
+│       ├── screenshot1.png
+│       └── screenshot2.png
+└── docs/
+    └── POE-Requirements.pdf
